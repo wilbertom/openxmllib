@@ -52,7 +52,7 @@ def openXmlDocument(path=None, file_=None, data=None, url=None, mime_type=None):
     elif url is not None:
         file_ = urlopen(url)
         if mime_type is None:
-            mime_type = file_.headers.gettype()
+            mime_type = file_.headers.get_content_type()
     elif data is not None:
         file_ = BytesIO(data)
         assert mime_type is not None
