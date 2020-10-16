@@ -8,7 +8,7 @@ http://www.ecma-international.org/publications/standards/Ecma-376.htm
 
 import mimetypes
 from io import BytesIO, StringIO
-from six.moves.urllib.request import urlopen
+from urllib.request import urlopen
 
 from . import presentation
 from . import spreadsheet
