@@ -8,7 +8,7 @@ import os
 import unittest
 
 import openxmllib
-from fixures import *
+from .fixures import *
 
 
 class WordProcessingTest(unittest.TestCase):

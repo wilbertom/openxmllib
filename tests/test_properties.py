@@ -6,7 +6,7 @@ Testing the properties (metadata) of a document
 
 import unittest
 import os
-from fixures import *
+from .fixures import *
 
 import openxmllib
 

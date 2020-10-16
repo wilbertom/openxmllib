@@ -9,7 +9,7 @@ import unittest
 
 import openxmllib
 
-from fixures import *
+from .fixures import *
 
 
 class PresentationTest(unittest.TestCase):

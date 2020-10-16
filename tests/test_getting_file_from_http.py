@@ -3,7 +3,7 @@
 testing getting files from http protocol
 """
 
-from fixures import *
+from .fixures import *
 from time import sleep
 import unittest
 import os

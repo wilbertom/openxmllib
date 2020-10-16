@@ -8,7 +8,7 @@ import os
 import sys
 import unittest
 
-import fixures
+from . import fixures
 
 
 class FixuresTest(unittest.TestCase):

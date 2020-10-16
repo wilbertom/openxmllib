@@ -9,7 +9,7 @@ import unittest
 
 import openxmllib
 import openxmllib.contenttypes as ct
-from fixures import *
+from .fixures import *
 
 
 class FactoryTest(unittest.TestCase):
