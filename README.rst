@@ -1,6 +1,9 @@
 ==========
-openxmllib
+openxmllib-py3
 ==========
+
+This is a fork of [openxmllib](https://github.com/glenfant/openxmllib)
+with Python3 support.
 
 openxmllib is a set of tools that deals with the new ECMA 376 office file
 formats known as OpenXML.
@@ -99,23 +102,16 @@ More details in the ``COPYING`` file included in this package.
 Status
 ======
 
-Starting from version 1.1, this package is tested mostly using Python 2.7.x on
-Linux. If dependencies can be met, it will most likely work on older versions
-and other environments as well.
 
-If you don't require the cover image extraction feature and want a production-
-quality version tested on Mac OSX, Linux and Windows with Python 2.4, Python 2.5,
-lxml 1.3.6 and lxml 2.2, it might be worth your while to try 1.0.7. It should
-work on other platforms as well, with Python 2.6, perhaps with other versions of
-lxml.
-
+Starting from version 2.0, this package is tested using Python 3.8.x on Linux.
+If dependencies can be met, it will most likely work on other environments as well.
 
 Installation
 ============
 
 Using the usual setuptools command::
 
-  $ [sudo] easy_install openxmllib
+  $ pip install openxmllib-py3
 
 Note that this will install the excellent `lxml` egg too if not already done.
 
@@ -137,7 +133,7 @@ problems in a try (...) except (...) block in your application.
 Developing and testing
 ======================
 
-You should grab openxmllib from its `repository at https://github.com/glenfant/openxmllib`_.
+You should grab openxmllib from its `repository at https://github.com/wilbertom/openxmllib-py3`_.
 
 Then::
 
@@ -153,7 +149,7 @@ Support
 =======
 
 Use the issue tracker provided from the `project site
-<https://github.com/glenfant/openxmllib/issues>`_.
+<https://github.com/wilbertom/openxmllib-py3/issues>`_.
 
 Credits
 =======
@@ -162,3 +158,5 @@ Credits
 * Kevin Deldycke [kevin.deldycke] <kevin at deldycke dot com>
 * Hugo Lopes Tavares [hltbra] <hltbra at gmail dot com>
 * Petri Savolainen [petri] <petri dot savolainen at koodaamo dot fi>
+* Eric Wohnlich [ewohnlich] <https://github.com/ewohnlich>
+* Wilberto Morales [wilbertom] <https://github.com/wilbertom/>

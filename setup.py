@@ -8,7 +8,7 @@ def read(*rnames):
     return open(os.path.join(os.path.dirname(__file__), *rnames)).read().strip()
 
 
-name = 'openxmllib'
+name = 'openxmllib-py3'
 
 long_description = "\n\n".join((
     read('README.rst'),
@@ -16,13 +16,13 @@ long_description = "\n\n".join((
     read('doc', 'source', 'HISTORY.txt')))
 
 setup(
-    name='openxmllib',
+    name=name,
     version=read('openxmllib', 'version.txt'),
     description='Provides resources to handle OpenXML documents.',
     long_description=long_description,
-    author='Gilles Lenfant',
-    author_email='gilles.lenfant@gmail.com',
-    url='https://github.com/glenfant/openxmllib',
+    author='Wilberto Morales',
+    author_email='wilbertomorales777@gmail.com',
+    url='https://github.com/wilbertom/openxmllib-py3',
     license="GPLv2",
     keywords='Python OpenXML lxml Office2007 ECMA376',
     classifiers=[
