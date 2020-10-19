@@ -1,6 +1,6 @@
-==========
+==============
 openxmllib-py3
-==========
+==============
 
 This is a fork of [openxmllib](https://github.com/glenfant/openxmllib)
 with Python3 support.
@@ -133,7 +133,7 @@ problems in a try (...) except (...) block in your application.
 Developing and testing
 ======================
 
-You should grab openxmllib from its `repository at https://github.com/wilbertom/openxmllib-py3`_.
+You should grab openxmllib from its repository at https://github.com/wilbertom/openxmllib-py3.
 
 Then::
 

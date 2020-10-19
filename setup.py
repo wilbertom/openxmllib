@@ -3,7 +3,6 @@
 from setuptools import setup, find_packages
 import os
 
-
 def read(*rnames):
     return open(os.path.join(os.path.dirname(__file__), *rnames)).read().strip()
 
@@ -32,7 +31,7 @@ setup(
         "Topic :: Text Processing :: Indexing",
         "Programming Language :: Python"
     ],
-    packages=find_packages(),
+    packages=['openxmllib'],
     include_package_data=True,
     exclude_package_data={
         '': ['tests']
