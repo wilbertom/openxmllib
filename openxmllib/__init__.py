@@ -22,7 +22,8 @@ from . import wordprocessing
 _document_classes = (
     wordprocessing.WordprocessingDocument,
     spreadsheet.SpreadsheetDocument,
-    presentation.PresentationDocument)
+    presentation.PresentationDocument
+)
 
 
 def openXmlDocument(path=None, file_=None, data=None, url=None, mime_type=None):
